@@ -1,0 +1,95 @@
+.dialogContainer{
+    display: flex;
+    flex-direction: column;
+    gap:1rem
+}
+.dialogHeading{
+    display:flex; 
+    align-items:center ;
+    gap:2rem;
+    justify-content:space-between
+}
+.owner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyBtn{
+    border: none;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    height: 2.5rem;
+    width: 7.5rem;
+    border-radius: 2rem;
+    color: #1668ec;
+    cursor: pointer;
+}
+
+.doneBtn{
+    border: none;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    height: 2.5rem;
+    width: 5.5rem;
+    border-radius: 2rem;
+    background-color: #1668ec;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.doneBtn:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.selectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.lockIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: rgb(179, 179, 179);
+}
+.select{
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: center; */
+    justify-content: center;
+    margin-left:1rem
+}
+select{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+}
+option{
+    width: 50%;
+    display: flex;
+    gap:2rem;
+}
+@media screen and (max-width:768px) {
+    .btnContainer{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
