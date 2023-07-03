@@ -22,7 +22,7 @@ This project is a Google Docs clone developed using React.js. It closely resembl
 
 To get started with the project, follow these steps:
 
-1. Clone the repository:``
+1. Clone the repository:`https://github.com/shivu317/Google-Doc-Clone/tree/google-doc-clone`
 2. Navigate to the project directory: `cd google-doc-clone`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
